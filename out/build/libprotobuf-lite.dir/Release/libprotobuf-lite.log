@@ -1,0 +1,35 @@
+﻿  Building Custom Rule C:/Users/admin/Downloads/protobuf-3.21.1/CMakeLists.txt
+  any_lite.cc
+  arena.cc
+  arenastring.cc
+  arenaz_sampler.cc
+  extension_set.cc
+  generated_enum_util.cc
+  generated_message_tctable_lite.cc
+  generated_message_util.cc
+  implicit_weak_message.cc
+  inlined_string_field.cc
+  coded_stream.cc
+  io_win32.cc
+  strtod.cc
+  zero_copy_stream.cc
+  zero_copy_stream_impl.cc
+  zero_copy_stream_impl_lite.cc
+  map.cc
+  message_lite.cc
+  parse_context.cc
+  repeated_field.cc
+  repeated_ptr_field.cc
+  bytestream.cc
+  common.cc
+  int128.cc
+  status.cc
+  statusor.cc
+  stringpiece.cc
+  stringprintf.cc
+  structurally_valid.cc
+  strutil.cc
+  time.cc
+  wire_format_lite.cc
+     Creating library C:/Users/admin/Downloads/protobuf-3.21.1/out/build/Release/libprotobuf-lite.lib and object C:/Users/admin/Downloads/protobuf-3.21.1/out/build/Release/libprotobuf-lite.exp
+  libprotobuf-lite.vcxproj -> C:\Users\admin\Downloads\protobuf-3.21.1\out\build\Release\libprotobuf-lite.dll

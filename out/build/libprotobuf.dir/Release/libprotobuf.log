@@ -1,0 +1,177 @@
+﻿  Building Custom Rule C:/Users/admin/Downloads/protobuf-3.21.1/CMakeLists.txt
+  any_lite.cc
+  arena.cc
+  arenastring.cc
+  arenaz_sampler.cc
+  extension_set.cc
+  generated_enum_util.cc
+  generated_message_tctable_lite.cc
+  generated_message_util.cc
+  implicit_weak_message.cc
+  inlined_string_field.cc
+  coded_stream.cc
+  io_win32.cc
+  strtod.cc
+  zero_copy_stream.cc
+  zero_copy_stream_impl.cc
+  zero_copy_stream_impl_lite.cc
+  map.cc
+  message_lite.cc
+  parse_context.cc
+  repeated_field.cc
+  repeated_ptr_field.cc
+  bytestream.cc
+  common.cc
+  int128.cc
+  status.cc
+  statusor.cc
+  stringpiece.cc
+  stringprintf.cc
+  structurally_valid.cc
+  strutil.cc
+  time.cc
+  wire_format_lite.cc
+  any.cc
+  any.pb.cc
+  api.pb.cc
+  importer.cc
+  parser.cc
+  descriptor.cc
+  descriptor.pb.cc
+  descriptor_database.cc
+  duration.pb.cc
+  dynamic_message.cc
+  empty.pb.cc
+  extension_set_heavy.cc
+  field_mask.pb.cc
+  generated_message_bases.cc
+  generated_message_reflection.cc
+  generated_message_tctable_full.cc
+  gzip_stream.cc
+  printer.cc
+  tokenizer.cc
+  map_field.cc
+  message.cc
+  reflection_ops.cc
+  service.cc
+  source_context.pb.cc
+  struct.pb.cc
+  substitute.cc
+  text_format.cc
+  timestamp.pb.cc
+  type.pb.cc
+  unknown_field_set.cc
+  delimited_message_util.cc
+  field_comparator.cc
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'void google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::MapBegin(google::protobuf::MapIterator *) const': no suitable definition provided for explicit template instantiation request
+  (compiling source file '../../src/google/protobuf/text_format.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(513,8):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::MapBegin'
+  
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'void google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::MapEnd(google::protobuf::MapIterator *) const': no suitable definition provided for explicit template instantiation request
+  (compiling source file '../../src/google/protobuf/text_format.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(514,8):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::MapEnd'
+  
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'bool google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::EqualIterator(const google::protobuf::MapIterator &,const google::protobuf::MapIterator &) const': no suitable definition provided for explicit template instantiation request
+  (compiling source file '../../src/google/protobuf/text_format.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(515,8):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::EqualIterator'
+  
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'google::protobuf::Map<Key,T>::const_iterator &google::protobuf::internal::TypeDefinedMapFieldBase<Key,T>::InternalGetIterator(const google::protobuf::MapIterator *) const': no suitable definition provided for explicit template instantiation request
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661:         with
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661:         [
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661:             Key=google::protobuf::MapKey,
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661:             T=google::protobuf::MapValueRef
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661:         ]
+  (compiling source file '../../src/google/protobuf/text_format.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(521,41):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::InternalGetIterator'
+  
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'void google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::InitializeIterator(google::protobuf::MapIterator *) const': no suitable definition provided for explicit template instantiation request
+  (compiling source file '../../src/google/protobuf/text_format.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(525,8):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::InitializeIterator'
+  
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'void google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::DeleteIterator(google::protobuf::MapIterator *) const': no suitable definition provided for explicit template instantiation request
+  (compiling source file '../../src/google/protobuf/text_format.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(526,8):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::DeleteIterator'
+  
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'void google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::CopyIterator(google::protobuf::MapIterator *,const google::protobuf::MapIterator &) const': no suitable definition provided for explicit template instantiation request
+  (compiling source file '../../src/google/protobuf/text_format.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(527,8):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::CopyIterator'
+  
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'void google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::IncreaseIterator(google::protobuf::MapIterator *) const': no suitable definition provided for explicit template instantiation request
+  (compiling source file '../../src/google/protobuf/text_format.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(529,8):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::IncreaseIterator'
+  
+  field_mask_util.cc
+  datapiece.cc
+  default_value_objectwriter.cc
+  error_listener.cc
+  field_mask_utility.cc
+  json_escaping.cc
+  json_objectwriter.cc
+  json_stream_parser.cc
+  object_writer.cc
+  proto_writer.cc
+  protostream_objectsource.cc
+  protostream_objectwriter.cc
+  type_info.cc
+  utility.cc
+  json_util.cc
+  message_differencer.cc
+  time_util.cc
+  type_resolver_util.cc
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'void google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::MapBegin(google::protobuf::MapIterator *) const': no suitable definition provided for explicit template instantiation request
+  (compiling source file '../../src/google/protobuf/util/message_differencer.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(513,8):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::MapBegin'
+  
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'void google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::MapEnd(google::protobuf::MapIterator *) const': no suitable definition provided for explicit template instantiation request
+  (compiling source file '../../src/google/protobuf/util/message_differencer.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(514,8):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::MapEnd'
+  
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'bool google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::EqualIterator(const google::protobuf::MapIterator &,const google::protobuf::MapIterator &) const': no suitable definition provided for explicit template instantiation request
+  (compiling source file '../../src/google/protobuf/util/message_differencer.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(515,8):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::EqualIterator'
+  
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'google::protobuf::Map<Key,T>::const_iterator &google::protobuf::internal::TypeDefinedMapFieldBase<Key,T>::InternalGetIterator(const google::protobuf::MapIterator *) const': no suitable definition provided for explicit template instantiation request
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661:         with
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661:         [
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661:             Key=google::protobuf::MapKey,
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661:             T=google::protobuf::MapValueRef
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661:         ]
+  (compiling source file '../../src/google/protobuf/util/message_differencer.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(521,41):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::InternalGetIterator'
+  
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'void google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::InitializeIterator(google::protobuf::MapIterator *) const': no suitable definition provided for explicit template instantiation request
+  (compiling source file '../../src/google/protobuf/util/message_differencer.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(525,8):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::InitializeIterator'
+  
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'void google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::DeleteIterator(google::protobuf::MapIterator *) const': no suitable definition provided for explicit template instantiation request
+  (compiling source file '../../src/google/protobuf/util/message_differencer.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(526,8):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::DeleteIterator'
+  
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'void google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::CopyIterator(google::protobuf::MapIterator *,const google::protobuf::MapIterator &) const': no suitable definition provided for explicit template instantiation request
+  (compiling source file '../../src/google/protobuf/util/message_differencer.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(527,8):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::CopyIterator'
+  
+C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(663,14): warning C4661: 'void google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::IncreaseIterator(google::protobuf::MapIterator *) const': no suitable definition provided for explicit template instantiation request
+  (compiling source file '../../src/google/protobuf/util/message_differencer.cc')
+      C:\Users\admin\Downloads\protobuf-3.21.1\src\google\protobuf\map_field.h(529,8):
+      see declaration of 'google::protobuf::internal::TypeDefinedMapFieldBase<google::protobuf::MapKey,google::protobuf::MapValueRef>::IncreaseIterator'
+  
+  wire_format.cc
+  wrappers.pb.cc
+     Creating library C:/Users/admin/Downloads/protobuf-3.21.1/out/build/Release/libprotobuf.lib and object C:/Users/admin/Downloads/protobuf-3.21.1/out/build/Release/libprotobuf.exp
+  libprotobuf.vcxproj -> C:\Users\admin\Downloads\protobuf-3.21.1\out\build\Release\libprotobuf.dll
